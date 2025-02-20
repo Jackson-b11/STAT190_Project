@@ -58,7 +58,7 @@ ggplot(hm_long, aes(x = round_month, y = value, color = variable)) +
   scale_color_brewer(palette = "Set1")
 
 ggplot(avg_visits, aes(x = round_month, y = avg_visits_per_household)) +
-  geom_line(color = "purple") + 
+  geom_line(color = "orange") + 
   labs(title = "Average Times each household visited per month",
        x = "Date",
        y = "Average visits per household per month") +
