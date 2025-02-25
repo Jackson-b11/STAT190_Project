@@ -3,7 +3,7 @@ library(randomForest)
 
 
 # Load dataset
-data(iris)
+data()
 
 # Split data into training and test sets
 set.seed(123)
