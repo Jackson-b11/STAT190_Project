@@ -28,10 +28,11 @@ The raw data used in this project is private and cannot be shared publicly. No d
 
 ## Repository Structure
 
-├── Cleaning/
-│   └── Contains one python file that cleans the raw data by grouping by families
-├── Model_Creation/
-│   ├── Contains multiple files in python and R that implement preditive models that aim to predict a dependent family   
-└── Visualizations/
-    ├── Contains multiple files in pythona nd R that create visualization using both the cleaned data and raw data
+**Cleaning**
+Contains one python file that cleans the raw data by grouping by families
+**Model_Creation**
+Contains multiple files in python and R that implement preditive models that aim to predict a dependent family   
+**Visualizations**
+Contains multiple files in pythona nd R that create visualization using both the cleaned data and raw data
+
 
