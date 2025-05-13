@@ -37,7 +37,7 @@ The raw data used in this project is private and cannot be shared publicly. No d
      - `Random forest Tuning.R` tunes that random forest to create the most accurate model.
      - `boosting model.R` creates a Gradient Descent Boosting to predict whether a family will be dependent
      - `boosting tuning.R` tunes that boosting model.
- - **Visualizations**: Contains multiple files in pythona nd R that create visualization using both the cleaned data and raw data
+ - **Visualizations**: Contains multiple files in python and R that create visualization using both the cleaned data and raw data
      - `FamilyVisits.R` creates a visualization that shows the total amount of visits by month and the unique households by month. This visualization shouldn't fully be trusted since we learned that the intake system often does not record visits if it is not a family's first time visiting in a month.
      - `IncomeBracket.R` creates a visualization that shows the amount of visits in a given month for families in different income brackets.
      - `NewFamilies.R` creates a Random Forest model that predicts if a family was 'new' in 2023 (meaning they had not visited a DMARC pantry in the past). That model is then used to guide the creation of visualizations that describe the difference between these new families and the traditional families.
